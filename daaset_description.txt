@@ -1,0 +1,10 @@
+Train-1542865627584.csv (The Target Labels): This is your master list. It contains just two columns: the Provider ID and a PotentialFraud flag (Yes/No). This is what your algorithm will ultimately try to predict.
+
+Train_Beneficiarydata...csv (The Patients): This contains demographic details about the patients (beneficiaries). It includes their ID, age, gender, race, and flags for chronic illnesses (like diabetes, Alzheimer's, heart failure, etc.).
+
+Train_Inpatientdata...csv (Hospital Admissions): These are the major claims. It contains records for patients who were admitted to the hospital. It includes admission/discharge dates, diagnosis codes, procedure codes, and the amount the provider claimed.
+
+Train_Outpatientdata...csv (Brief Visits): These are the minor claims. It contains records for patients who visited a clinic or hospital but were not admitted overnight.
+
+
+Dataset URL - https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis?resource=download
