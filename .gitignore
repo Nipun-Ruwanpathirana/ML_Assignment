@@ -1,2 +1,2 @@
 *.zip
-Dataset/creditcard.csv
+Dataset/*.csv
